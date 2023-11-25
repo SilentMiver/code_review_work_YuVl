@@ -21,6 +21,8 @@ public class Calculator {
     }
 
     public int solver(int a, int b, int c){
-        return sum(times(b, c), a);
+        return add(times(b, c), a);
 }
+}
+
 
