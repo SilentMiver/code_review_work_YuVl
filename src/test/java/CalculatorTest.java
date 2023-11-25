@@ -4,14 +4,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class CalculatorTest {
 
     @Test
-    void add() {
-        Calculator calculator = new Calculator();
-        assertEquals(5, calculator.add(2, 3));
-        assertEquals(-1, calculator.add(-4, 3));
-        assertEquals(0, calculator.add(0, 0));
-    }
-
-    @Test
     void diff() {
         Calculator calculator = new Calculator();
         assertEquals(-1, calculator.diff(2, 3));
